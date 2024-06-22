@@ -1,0 +1,70 @@
+<div dir="ltr" align="left">
+<table style="width: 99.6469%;"><colgroup><col style="width: 68.4497%;" width="478"><col style="width: 31.504%;" width="220"></colgroup>
+<tbody>
+<tr>
+<td>
+<p dir="ltr">Your Name</p>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+</td>
+<td>
+<p dir="ltr">123 Your Street</p>
+<p dir="ltr">Your City, ST 12345</p>
+<p dir="ltr">(123) 456-7890</p>
+<p dir="ltr">no_reply@example.com</p>
+</td>
+</tr>
+<tr>
+<td>
+<h1 dir="ltr">EXPERIENCE</h1>
+<h2 dir="ltr">Company, Location &mdash; Job Title</h2>
+<h3 dir="ltr">MONTH 20XX - PRESENT</h3>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+<h2 dir="ltr">Company, Location &mdash; Job Title</h2>
+<h3 dir="ltr">MONTH 20XX - MONTH 20XX</h3>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+<h2 dir="ltr">Company, Location &mdash; Job Title</h2>
+<h3 dir="ltr">MONTH 20XX - MONTH 20XX</h3>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+<h1 dir="ltr">EDUCATION</h1>
+<h2 dir="ltr">School Name, Location &mdash; Degree</h2>
+<h3 dir="ltr">MONTH 20XX - MONTH 20XX</h3>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+<h2 dir="ltr">School Name, Location &mdash; Degree</h2>
+<h3 dir="ltr">MONTH 20XX - MONTH 20XX</h3>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+<h1 dir="ltr">PROJECTS</h1>
+<h2 dir="ltr">Project Name &mdash; Detail</h2>
+<p dir="ltr">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+</td>
+<td>
+<h1 dir="ltr">SKILLS</h1>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">Lorem ipsum dolor sit amet.</p>
+</li>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">Consectetuer adipiscing elit.</p>
+</li>
+</ul>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">Sed diam nonummy nibh euismod tincidunt.</p>
+</li>
+</ul>
+<ul>
+<li dir="ltr" aria-level="1">
+<p dir="ltr" role="presentation">L​​​&zwnj;​aoreet dolore magna aliquam erat volutpat.</p>
+</li>
+</ul>
+<h1 dir="ltr">AWARDS</h1>
+<p dir="ltr">Lorem ipsum dolor sit amet Consectetuer adipiscing elit, Sed diam nonummy</p>
+<p dir="ltr">Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<p dir="ltr">Lorem ipsum dolor sit amet Consectetuer adipiscing elit, Sed diam nonummy</p>
+<p dir="ltr">Nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+<h1 dir="ltr">LANGUAGES</h1>
+<p dir="ltr">Lorem ipsum, Dolor sit amet, Consectetuer</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>

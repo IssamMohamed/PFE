@@ -1,0 +1,39 @@
+DROP DATABASE IF EXISTS PFEgeneral;
+CREATE DATABASE PFEgeneral;
+USE PFEgeneral;
+
+-- Creating the Groupe table
+CREATE TABLE groupe (
+    id_group INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+-- Creating the User table
+CREATE TABLE user (
+    id_user VARCHAR(255) PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    sex VARCHAR(225),
+    role ENUM('Employee', 'Chef', 'Director','Admine') NOT NULL,
+    id_group INT,
+    FOREIGN KEY (id_group) REFERENCES groupe(id_group)
+);
+
+-- Creating the Report table
+CREATE TABLE report (
+    id_report INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    path VARCHAR(255),
+    status ENUM('Accepted','Not accepted'),
+    id_from VARCHAR(255) NOT NULL,
+    id_to VARCHAR(255) NULL
+);
+
+-- Creating the Notification table
+CREATE TABLE notification (
+    id_note INT AUTO_INCREMENT PRIMARY KEY,
+    object  LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+    content LONGTEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci,
+    id_to VARCHAR(255),
+    id_from VARCHAR(255),
+    status ENUM('unread', 'read') DEFAULT 'unread'
+);

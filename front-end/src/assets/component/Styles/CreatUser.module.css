@@ -1,0 +1,80 @@
+/* Main container styling */
+.MainContaner {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9e9e9;
+    height: 100%;
+}
+
+/* Inner container styling */
+.mainContaner {
+    background-color: #fff;
+    padding: 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input styling */
+.inpt[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    
+    
+}
+.inpt[type="text"]:focus {
+    
+    outline: none; /* Remove the default outline as well */
+    border-bottom: 1px solid black;
+}
+.submitButton{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #fc6305;
+    color: #fff;
+    font-size: large;
+}
+
+
+/* Select styling */
+select {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border:none;
+   
+    background-color: #fff;
+    appearance: none;
+    
+}
+select:focus {
+    
+    outline: none; /* Remove the default outline as well */
+    border-bottom: 1px solid black;
+}
+.quite{
+    font-size: 900;
+    position: absolute;
+    top: 60px;
+    right: 360px;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+}

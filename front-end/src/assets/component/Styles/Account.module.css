@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cMA {
+    position: fixed;
+    z-index: 60;
+    background-color:rgba(255, 255, 255, 0.9);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cmA {
+    background-color: #ffffff;
+    width: 60%;
+    height: 80%;
+    border: 2px solid #8c8282;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+}
+.btnAccount{
+    position: absolute;
+    bottom: 100px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    color: #8c8282;
+    
+}
+.cGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+}
+.buttonXAccount{
+    position: absolute; 
+    top: 40px; 
+    right: 40px;
+}
+.btnSaveAcount{
+   
+    position: absolute;
+    right: 300px;
+}
+.inputAccount{
+    
+    border: none; /* Remove the border */
+    resize: none; /* Prevent resizing */
+    outline: none;
+}
